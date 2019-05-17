@@ -1,0 +1,10 @@
+May 16, 2019 7:55:09 PM com.qa.testsuites.LoginToTheApplication ValidatingLogout
+INFO: Test Purpose: Logout from application
+May 16, 2019 7:55:09 PM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAndAddToCart
+INFO: Validating departments Section
+May 16, 2019 7:55:09 PM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAndAddToCart
+INFO: Successfully validated departments section
+May 16, 2019 7:55:09 PM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAndAddToCart
+INFO: Successfully validated electronics from the dropdown
+May 16, 2019 7:55:12 PM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAndAddToCart
+INFO: Successfully clicked on electronics from the dropdown

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Parallel test suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.qa.customReport.CustomReport"/>
+  </listeners>
+  <test name="LoginToTheApplication(failed)" parallel="methods">
+    <classes>
+      <class name="com.qa.testsuites.LoginToTheApplication">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="launchApplication"/>
+          <include name="loadDataProperties"/>
+          <include name="initFramewotk"/>
+          <include name="setupLogger"/>
+        </methods>
+      </class> <!-- com.qa.testsuites.LoginToTheApplication -->
+    </classes>
+  </test> <!-- LoginToTheApplication(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

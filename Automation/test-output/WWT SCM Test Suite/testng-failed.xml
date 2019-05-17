@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [WWT SCM Test Suite]" parallel="tests">
+  <test name="Sample test Suite2(failed)" parallel="tests">
+    <classes>
+      <class name="isteer.qa.test.Kodiac.sampleTestSuite">
+        <methods>
+          <include name="initFramewotk"/>
+        </methods>
+      </class> <!-- isteer.qa.test.Kodiac.sampleTestSuite -->
+      <class name="isteer.qa.test.Kodiac.sampleTest2">
+        <methods>
+          <include name="sampleTest"/>
+          <include name="initFramewotk"/>
+        </methods>
+      </class> <!-- isteer.qa.test.Kodiac.sampleTest2 -->
+    </classes>
+  </test> <!-- Sample test Suite2(failed) -->
+  <test name="Sample test Suite(failed)" parallel="tests">
+    <classes>
+      <class name="isteer.qa.test.Kodiac.sampleTestSuite">
+        <methods>
+          <include name="sampleTest"/>
+          <include name="initFramewotk"/>
+        </methods>
+      </class> <!-- isteer.qa.test.Kodiac.sampleTestSuite -->
+      <class name="isteer.qa.test.Kodiac.sampleTest2">
+        <methods>
+          <include name="initFramewotk"/>
+        </methods>
+      </class> <!-- isteer.qa.test.Kodiac.sampleTest2 -->
+    </classes>
+  </test> <!-- Sample test Suite(failed) -->
+</suite> <!-- Failed suite [WWT SCM Test Suite] -->

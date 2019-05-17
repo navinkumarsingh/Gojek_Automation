@@ -1,0 +1,22 @@
+May 16, 2019 6:17:19 PM com.qa.testsuites.LoginToTheApplication loginToApplication
+INFO: Test Purpose: Launching Amazon website and login
+May 16, 2019 6:17:19 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Validating amazon logo in home page
+May 16, 2019 6:17:19 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Successfully validated amazon logo in home page.
+May 16, 2019 6:17:20 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Successfully clicked on hello Sign In link at home page
+May 16, 2019 6:17:21 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Successfully validated email input box
+May 16, 2019 6:17:22 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Successfully entered email id in input box
+May 16, 2019 6:17:22 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Successfully validated email input box
+May 16, 2019 6:17:22 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Successfully entered pwd in input box
+May 16, 2019 6:17:22 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Successfully validated sign In Submit button
+May 16, 2019 6:17:25 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Successfully clicked on sign in submit button
+May 16, 2019 6:17:25 PM com.qa.test.methods.CommonMethods loginToTheApplication
+INFO: Successfully validated the title as :Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more

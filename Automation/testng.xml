@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation">
+	<listeners>
+		<listener class-name="com.qa.customReport.CustomReport" />
+	</listeners>
+	<test name="LoginToTheApplication">
+		<classes>
+			<class name="com.qa.testsuites.LoginToTheApplication" />
+		</classes>
+	</test> 
+	
+ 
+ </suite> 

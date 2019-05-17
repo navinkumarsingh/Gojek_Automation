@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Automation]">
+  <listeners>
+    <listener class-name="com.qa.customReport.CustomReport"/>
+  </listeners>
+  <test name="LoginToTheApplication(failed)">
+    <classes>
+      <class name="com.qa.testsuites.LoginToTheApplication">
+        <methods>
+          <include name="validatingCloseBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="initFramewotk"/>
+        </methods>
+      </class> <!-- com.qa.testsuites.LoginToTheApplication -->
+    </classes>
+  </test> <!-- LoginToTheApplication(failed) -->
+</suite> <!-- Failed suite [Amazon Automation] -->

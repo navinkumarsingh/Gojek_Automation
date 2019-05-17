@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Kodiak CAT]]">
+  <listeners>
+    <listener class-name="com.kodiak.qa.customReport.CustomReport"/>
+  </listeners>
+  <test name="DispatcherBasicSearchTestCase(failed)(failed)">
+    <classes>
+      <class name="com.kodiak.qa.testsuites.DispatcherBasicSearchTestCase">
+        <methods>
+          <include name="verifyContactsSearchAndAfterClrSearchUsingName"/>
+          <include name="verifyContactsSearchAndAfterClrSearchUsingMdn"/>
+          <include name="validatingSubListDeletionForContinuation"/>
+          <include name="Kodiak_CAT_1_LaunchingUsingBANId"/>
+          <include name="searchSubscriberPhNumber"/>
+          <include name="validatingDeletingMemberForContinuation"/>
+          <include name="Kodiak_CAT_2_LaunchingUsingFANId"/>
+          <include name="validatingGroupDeletionForContinuation"/>
+          <include name="checkDeleteBtnBeforeAndAfterSearch"/>
+          <include name="Dispatcher_VerifySublistNameInAddSublistPopup"/>
+          <include name="validatingSubListAddition"/>
+          <include name="Dispatcher_VerifyGroupInViewGroupsTab"/>
+          <include name="searchSubscriberName"/>
+          <include name="searchSubscriberPhoneNumberInSubscriberWorkArea"/>
+          <include name="launchCAT"/>
+          <include name="Dispatcher_VerifySubscriberMdnInViewAllContactsTab"/>
+          <include name="setupLogger"/>
+          <include name="Dispatcher_VerifySublistCount"/>
+          <include name="Dispatcher_SearchInvalidGroupNameInViewGroupsTab"/>
+          <include name="loadDataProperties"/>
+          <include name="searchInvalidStringInSubscriberWorkArea"/>
+          <include name="Dispatcher_VerifySubscriberNameInViewAllContactsTab"/>
+          <include name="Dispatcher_VerifySubscriberInManageContactsVisSublist"/>
+          <include name="searchSubscriberNameInSubscriberWorkArea"/>
+          <include name="initFramewotk"/>
+        </methods>
+      </class> <!-- com.kodiak.qa.testsuites.DispatcherBasicSearchTestCase -->
+    </classes>
+  </test> <!-- DispatcherBasicSearchTestCase(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Kodiak CAT]] -->
