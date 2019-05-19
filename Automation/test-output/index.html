@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Automation">
-              <span class="suite-name border-passed">Automation</span>
+              <span class="suite-name border-failed">Automation</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation" class="hide-methods failed suite-Automation"> (hide)</a> <!-- hide-methods failed suite-Automation -->
+                      <a href="#" panel-name="suite-Automation" class="show-methods failed suite-Automation"> (show)</a> <!-- show-methods failed suite-Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testsuites.TestSuite" hash-for-method="ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout">ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -111,17 +125,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testsuites.TestSuite" hash-for-method="ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout">ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testsuites.TestSuite" hash-for-method="validatingCloseBrowser">validatingCloseBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testsuites.TestSuite" hash-for-method="validatingLogin">validatingLogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testsuites.TestSuite" hash-for-method="validatingLoginAndLogoutFromApplication">validatingLoginAndLogoutFromApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation -->
@@ -136,6 +145,41 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Automation" class="panel Automation">
+          <div class="suite-Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.testsuites.TestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout">
+                  </a> <!-- ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout -->
+                  <span class="method-name">ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 480 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;Navinkumar_Singh_Laptop&apos;, ip: &apos;192.168.2.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir=C:\Users\NAVINK~1.SIN\AppData\Local\Temp\scoped_dir91904_18934}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e4e84b663bb20d31169a2b31be4f84d7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.qa.common.WebDriverWrappers.click(WebDriverWrappers.java:36)
+	at com.qa.test.methods.CommonMethods.selectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout(CommonMethods.java:348)
+	at com.qa.testsuites.TestSuite.ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout(TestSuite.java:65)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation-class-failed -->
           <div class="suite-Automation-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -158,13 +202,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout">
-                  </a> <!-- ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout -->
-                  <span class="method-name">ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="validatingCloseBrowser">
                   </a> <!-- validatingCloseBrowser -->
                   <span class="method-name">validatingCloseBrowser</span>
@@ -172,9 +209,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validatingLogin">
-                  </a> <!-- validatingLogin -->
-                  <span class="method-name">validatingLogin</span>
+                  <a name="validatingLoginAndLogoutFromApplication">
+                  </a> <!-- validatingLoginAndLogoutFromApplication -->
+                  <span class="method-name">validatingLoginAndLogoutFromApplication</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,28 +275,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ValidatingFirstAvailableHeadphoneAddToCart')
 data.setCell(0, 2, 'com.qa.testsuites.TestSuite')
-data.setCell(0, 3, 16508);
+data.setCell(0, 3, 16993);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validatingLogin')
+data.setCell(1, 1, 'ValidatingMacBookProAddedToCart')
 data.setCell(1, 2, 'com.qa.testsuites.TestSuite')
-data.setCell(1, 3, 15804);
+data.setCell(1, 3, 13935);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ValidatingMacBookProAddedToCart')
+data.setCell(2, 1, 'validatingLoginAndLogoutFromApplication')
 data.setCell(2, 2, 'com.qa.testsuites.TestSuite')
-data.setCell(2, 3, 13838);
+data.setCell(2, 3, 8591);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout')
 data.setCell(3, 2, 'com.qa.testsuites.TestSuite')
-data.setCell(3, 3, 6385);
+data.setCell(3, 3, 4470);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'validatingCloseBrowser')
 data.setCell(4, 2, 'com.qa.testsuites.TestSuite')
-data.setCell(4, 3, 1081);
+data.setCell(4, 3, 1203);
 window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-Automation">
               </div> <!-- times-div-Automation -->
             </div> <!-- times-div -->
@@ -292,51 +329,53 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">2747 ms</span>
+                <span class="method-start">2794 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">loadDataProperties</span>
-                <span class="method-start">19187 ms</span>
+                <span class="method-start">19429 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">setupLogger(public void com.qa.testsuites.TestSuite.validatingLogin() throws java.lang.Exception)</span>
-                <span class="method-start">19191 ms</span>
+                <span class="method-name">setupLogger(public void com.qa.testsuites.TestSuite.validatingLoginAndLogoutFromApplication() throws java.lang.E...)</span>
+                <span class="method-start">19433 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validatingLogin</span>
-                <span class="method-start">19199 ms</span>
+                <span class="method-name">validatingLoginAndLogoutFromApplication</span>
+                <span class="method-start">19442 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogger(public void com.qa.testsuites.TestSuite.ValidatingFirstAvailableHeadphoneAddToCart() throws java.lan...)</span>
-                <span class="method-start">35010 ms</span>
+                <span class="method-start">28038 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidatingFirstAvailableHeadphoneAddToCart</span>
-                <span class="method-start">35013 ms</span>
+                <span class="method-start">28040 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogger(public void com.qa.testsuites.TestSuite.ValidatingMacBookProAddedToCart() throws java.lang.Exception)</span>
-                <span class="method-start">51521 ms</span>
+                <span class="method-start">45034 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ValidatingMacBookProAddedToCart</span>
-                <span class="method-start">51525 ms</span>
+                <span class="method-start">45035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout</span>
+                <span class="method-start">58971 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogger(public void com.qa.testsuites.TestSuite.ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCh...)</span>
-                <span class="method-start">65364 ms</span>
+                <span class="method-start">58971 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout</span>
-                <span class="method-start">65366 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogger(public void com.qa.testsuites.TestSuite.validatingCloseBrowser() throws java.lang.Exception)</span>
-                <span class="method-start">71754 ms</span>
+                <span class="method-start">63454 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validatingCloseBrowser</span>
-                <span class="method-start">71755 ms</span>
+                <span class="method-start">63455 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

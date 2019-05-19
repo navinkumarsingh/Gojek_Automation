@@ -9,13 +9,10 @@
       <class name="com.qa.testsuites.TestSuite">
         <methods>
           <include name="loadDataProperties"/>
-          <include name="ValidatingFirstAvailableHeadphoneAddToCart"/>
           <include name="ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout"/>
           <include name="launchApplication"/>
-          <include name="ValidatingMacBookProAddedToCart"/>
           <include name="initFramewotk"/>
           <include name="setupLogger"/>
-          <include name="validatingLogin"/>
         </methods>
       </class> <!-- com.qa.testsuites.TestSuite -->
     </classes>

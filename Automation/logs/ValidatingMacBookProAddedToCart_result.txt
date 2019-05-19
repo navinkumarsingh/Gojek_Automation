@@ -1,34 +1,34 @@
-May 20, 2019 12:52:46 AM com.qa.testsuites.TestSuite ValidatingMacBookProAddedToCart
+May 20, 2019 2:39:15 AM com.qa.testsuites.TestSuite ValidatingMacBookProAddedToCart
 INFO: Test Purpose: Search Mac Book Pro and add to cart
-May 20, 2019 12:52:46 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:15 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Validating Mac Book Pro added to cart
-May 20, 2019 12:52:46 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:15 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully validated search input box
-May 20, 2019 12:52:46 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:15 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully enter Mac Book Pro into search input box
-May 20, 2019 12:52:46 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:15 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully located go
-May 20, 2019 12:52:50 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:19 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully clicked on go after entering Mac Book Pro into search input box
-May 20, 2019 12:52:50 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:19 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully validated Brand Mac Book Pro checkbox.
-May 20, 2019 12:52:52 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:22 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully checked the MacBook Pro check box
-May 20, 2019 12:52:52 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:22 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully validated second Mac Book Pro in the list
-May 20, 2019 12:52:56 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:25 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully selected second Mac Book Pro in the list
-May 20, 2019 12:52:56 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:25 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully Selected second dropdown from the dropdown list
-May 20, 2019 12:52:56 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:25 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully validated add to cart button.
-May 20, 2019 12:52:59 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:28 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully clicked on add to cart button.
-May 20, 2019 12:52:59 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:28 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully validated add to cart  success text.
-May 20, 2019 12:52:59 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:28 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully validated add to cart success text : Added to Cart
-May 20, 2019 12:52:59 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:29 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully validated cart count webelement
-May 20, 2019 12:53:00 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
+May 20, 2019 2:39:29 AM com.qa.test.methods.CommonMethods macBookProAddedToCart
 INFO: Successfully validated cart count number : 3

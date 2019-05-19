@@ -28,7 +28,7 @@ public class TestSuite extends Init{
 	}
 	
 	@Test(enabled = true, priority=1)
-	public void validatingLogin() throws Exception{
+	public void validatingLoginAndLogoutFromApplication() throws Exception{
 		logger.info("Test Purpose: Login to Application");
 		String userName = prop.getProperty("userName");
 		String pwd = prop.getProperty("pwd");
@@ -71,7 +71,7 @@ public class TestSuite extends Init{
 	@Test(enabled=true, priority=5)
 	public void validatingCloseBrowser() throws Exception{
 	boolean flag = false;
-	flag = methods.closeBrowser(driver, logger);
+	flag = methods.tearDown(driver, logger);
 	Assert.assertTrue(flag, "Failed to Close the Browser");
 	
 	}

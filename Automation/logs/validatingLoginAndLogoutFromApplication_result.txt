@@ -1,0 +1,28 @@
+May 20, 2019 2:38:49 AM com.qa.testsuites.TestSuite validatingLoginAndLogoutFromApplication
+INFO: Test Purpose: Login to Application
+May 20, 2019 2:38:49 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Validating amazon logo in home page
+May 20, 2019 2:38:49 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated amazon logo in home page.
+May 20, 2019 2:38:50 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully clicked on hello Sign In link at home page
+May 20, 2019 2:38:52 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated email input box
+May 20, 2019 2:38:52 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully entered email id in input box
+May 20, 2019 2:38:52 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated email input box
+May 20, 2019 2:38:52 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully entered pwd in input box
+May 20, 2019 2:38:52 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated sign In Submit button
+May 20, 2019 2:38:56 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully clicked on sign in submit button
+May 20, 2019 2:38:56 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated the title as : Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+May 20, 2019 2:38:56 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated hello Sign In section
+May 20, 2019 2:38:56 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated sign out from the drop down
+May 20, 2019 2:38:58 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully logged out
