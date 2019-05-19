@@ -1,70 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation" duration-ms="34859" started-at="2019-05-17T11:10:58Z" finished-at="2019-05-17T11:11:33Z">
+  <suite name="Automation" duration-ms="72841" started-at="2019-05-19T19:21:54Z" finished-at="2019-05-19T19:23:07Z">
     <groups>
     </groups>
-    <test name="LoginToTheApplication" duration-ms="34859" started-at="2019-05-17T11:10:58Z" finished-at="2019-05-17T11:11:33Z">
-      <class name="com.qa.testsuites.LoginToTheApplication">
-        <test-method status="PASS" signature="initFramewotk()[pri:0, instance:com.qa.testsuites.LoginToTheApplication@57fffcd7]" name="initFramewotk" is-config="true" duration-ms="2681" started-at="2019-05-17T16:40:58Z" finished-at="2019-05-17T16:41:01Z">
+    <test name="TestSuite" duration-ms="72841" started-at="2019-05-19T19:21:54Z" finished-at="2019-05-19T19:23:07Z">
+      <class name="com.qa.testsuites.TestSuite">
+        <test-method status="PASS" signature="initFramewotk()[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="initFramewotk" is-config="true" duration-ms="2747" started-at="2019-05-20T00:51:54Z" finished-at="2019-05-20T00:51:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFramewotk -->
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.qa.testsuites.LoginToTheApplication@57fffcd7]" name="launchApplication" is-config="true" duration-ms="10376" started-at="2019-05-17T16:41:01Z" finished-at="2019-05-17T16:41:11Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="launchApplication" is-config="true" duration-ms="16440" started-at="2019-05-20T00:51:57Z" finished-at="2019-05-20T00:52:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="loadDataProperties()[pri:0, instance:com.qa.testsuites.LoginToTheApplication@57fffcd7]" name="loadDataProperties" is-config="true" duration-ms="4" started-at="2019-05-17T16:41:11Z" finished-at="2019-05-17T16:41:11Z">
+        <test-method status="PASS" signature="loadDataProperties()[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="loadDataProperties" is-config="true" duration-ms="0" started-at="2019-05-20T00:52:13Z" finished-at="2019-05-20T00:52:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadDataProperties -->
-        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.qa.testsuites.LoginToTheApplication@57fffcd7]" name="setupLogger" is-config="true" duration-ms="5" started-at="2019-05-17T16:41:11Z" finished-at="2019-05-17T16:41:11Z">
+        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="setupLogger" is-config="true" duration-ms="8" started-at="2019-05-20T00:52:13Z" finished-at="2019-05-20T00:52:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.testsuites.LoginToTheApplication.validatingLogin() throws java.lang.Exception]]>
+                <![CDATA[public void com.qa.testsuites.TestSuite.validatingLogin() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogger -->
-        <test-method status="PASS" signature="validatingLogin()[pri:0, instance:com.qa.testsuites.LoginToTheApplication@57fffcd7]" name="validatingLogin" duration-ms="5833" started-at="2019-05-17T16:41:11Z" finished-at="2019-05-17T16:41:17Z">
+        <test-method status="PASS" signature="validatingLogin()[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="validatingLogin" duration-ms="15804" started-at="2019-05-20T00:52:13Z" finished-at="2019-05-20T00:52:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatingLogin -->
-        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.qa.testsuites.LoginToTheApplication@57fffcd7]" name="setupLogger" is-config="true" duration-ms="1" started-at="2019-05-17T16:41:17Z" finished-at="2019-05-17T16:41:17Z">
+        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="setupLogger" is-config="true" duration-ms="3" started-at="2019-05-20T00:52:29Z" finished-at="2019-05-20T00:52:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.testsuites.LoginToTheApplication.ValidatingHeadphoneAndAddToCart() throws java.lang.Exception]]>
+                <![CDATA[public void com.qa.testsuites.TestSuite.ValidatingFirstAvailableHeadphoneAddToCart() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogger -->
-        <test-method status="PASS" signature="ValidatingHeadphoneAndAddToCart()[pri:0, instance:com.qa.testsuites.LoginToTheApplication@57fffcd7]" name="ValidatingHeadphoneAndAddToCart" duration-ms="13382" started-at="2019-05-17T16:41:17Z" finished-at="2019-05-17T16:41:30Z">
+        <test-method status="PASS" signature="ValidatingFirstAvailableHeadphoneAddToCart()[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="ValidatingFirstAvailableHeadphoneAddToCart" duration-ms="16508" started-at="2019-05-20T00:52:29Z" finished-at="2019-05-20T00:52:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidatingHeadphoneAndAddToCart -->
-        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.qa.testsuites.LoginToTheApplication@57fffcd7]" name="setupLogger" is-config="true" duration-ms="1" started-at="2019-05-17T16:41:30Z" finished-at="2019-05-17T16:41:30Z">
+        </test-method> <!-- ValidatingFirstAvailableHeadphoneAddToCart -->
+        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="setupLogger" is-config="true" duration-ms="4" started-at="2019-05-20T00:52:46Z" finished-at="2019-05-20T00:52:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.testsuites.LoginToTheApplication.validatingCloseBrowser() throws java.lang.Exception]]>
+                <![CDATA[public void com.qa.testsuites.TestSuite.ValidatingMacBookProAddedToCart() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogger -->
-        <test-method status="PASS" signature="validatingCloseBrowser()[pri:0, instance:com.qa.testsuites.LoginToTheApplication@57fffcd7]" name="validatingCloseBrowser" duration-ms="2563" started-at="2019-05-17T16:41:30Z" finished-at="2019-05-17T16:41:33Z">
+        <test-method status="PASS" signature="ValidatingMacBookProAddedToCart()[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="ValidatingMacBookProAddedToCart" duration-ms="13838" started-at="2019-05-20T00:52:46Z" finished-at="2019-05-20T00:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingMacBookProAddedToCart -->
+        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="setupLogger" is-config="true" duration-ms="2" started-at="2019-05-20T00:53:00Z" finished-at="2019-05-20T00:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testsuites.TestSuite.ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method status="PASS" signature="ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout()[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout" duration-ms="6385" started-at="2019-05-20T00:53:00Z" finished-at="2019-05-20T00:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout -->
+        <test-method status="PASS" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="setupLogger" is-config="true" duration-ms="1" started-at="2019-05-20T00:53:06Z" finished-at="2019-05-20T00:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testsuites.TestSuite.validatingCloseBrowser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method status="PASS" signature="validatingCloseBrowser()[pri:0, instance:com.qa.testsuites.TestSuite@57fffcd7]" name="validatingCloseBrowser" duration-ms="1081" started-at="2019-05-20T00:53:06Z" finished-at="2019-05-20T00:53:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatingCloseBrowser -->
-      </class> <!-- com.qa.testsuites.LoginToTheApplication -->
-    </test> <!-- LoginToTheApplication -->
+      </class> <!-- com.qa.testsuites.TestSuite -->
+    </test> <!-- TestSuite -->
   </suite> <!-- Automation -->
 </testng-results>

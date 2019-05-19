@@ -20,7 +20,7 @@ public class Init extends WebDriverBase {
 		prop.load(new FileInputStream(propfile));
 		String url = prop.getProperty("WEBSITE_URL");
 		driver.get(url);
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		}catch(Exception e)

@@ -1,0 +1,36 @@
+May 20, 2019 12:52:29 AM com.qa.testsuites.TestSuite ValidatingFirstAvailableHeadphoneAddToCart
+INFO: Test Purpose: Select First Available Headphone And Add To Cart
+May 20, 2019 12:52:29 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated email input box
+May 20, 2019 12:52:30 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully entered email id in input box
+May 20, 2019 12:52:30 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated email input box
+May 20, 2019 12:52:30 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully entered pwd in input box
+May 20, 2019 12:52:30 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated sign In Submit button
+May 20, 2019 12:52:32 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully clicked on sign in submit button
+May 20, 2019 12:52:32 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated departments section
+May 20, 2019 12:52:33 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated electronics from the drop down
+May 20, 2019 12:52:36 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully clicked on electronics from the drop down.
+May 20, 2019 12:52:36 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated headphones.
+May 20, 2019 12:52:39 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully clicked on headphones.
+May 20, 2019 12:52:39 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated first Head Phone.
+May 20, 2019 12:52:42 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully clicked on first head phone.
+May 20, 2019 12:52:43 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated add to cart button.
+May 20, 2019 12:52:46 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully clicked on add to cart button.
+May 20, 2019 12:52:46 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated add to cart  success text.
+May 20, 2019 12:52:46 AM com.qa.test.methods.CommonMethods selectFirstAvailableHeadphoneAddToCart
+INFO: Successfully validated add to cart success text : Added to Cart

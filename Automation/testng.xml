@@ -3,9 +3,9 @@
 	<listeners>
 		<listener class-name="com.qa.customReport.CustomReport" />
 	</listeners>
-	<test name="LoginToTheApplication">
+	<test name="TestSuite">
 		<classes>
-			<class name="com.qa.testsuites.LoginToTheApplication" />
+			<class name="com.qa.testsuites.TestSuite" />
 		</classes>
 	</test> 
 	

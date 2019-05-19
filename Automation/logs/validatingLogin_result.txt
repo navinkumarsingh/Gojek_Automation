@@ -1,22 +1,36 @@
-May 17, 2019 4:41:11 PM com.qa.testsuites.LoginToTheApplication validatingLogin
+May 20, 2019 12:52:13 AM com.qa.testsuites.TestSuite validatingLogin
 INFO: Test Purpose: Login to Application
-May 17, 2019 4:41:11 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:13 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Validating amazon logo in home page
-May 17, 2019 4:41:11 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:14 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Successfully validated amazon logo in home page.
-May 17, 2019 4:41:13 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:15 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Successfully clicked on hello Sign In link at home page
-May 17, 2019 4:41:14 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:16 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Successfully validated email input box
-May 17, 2019 4:41:14 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:16 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Successfully entered email id in input box
-May 17, 2019 4:41:14 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:17 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Successfully validated email input box
-May 17, 2019 4:41:14 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:17 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Successfully entered pwd in input box
-May 17, 2019 4:41:14 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:17 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Successfully validated sign In Submit button
-May 17, 2019 4:41:17 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:22 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Successfully clicked on sign in submit button
-May 17, 2019 4:41:17 PM com.qa.test.methods.CommonMethods loginToTheApplication
+May 20, 2019 12:52:22 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
 INFO: Successfully validated the title as : Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+May 20, 2019 12:52:23 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated add to cart button.
+May 20, 2019 12:52:26 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully clicked on add to cart button.
+May 20, 2019 12:52:26 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated delete label.
+May 20, 2019 12:52:26 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully deleted list
+May 20, 2019 12:52:27 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated hello Sign In section
+May 20, 2019 12:52:28 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully validated sign out from the drop down
+May 20, 2019 12:52:29 AM com.qa.test.methods.CommonMethods loginAndLogoutFromApplication
+INFO: Successfully logged out

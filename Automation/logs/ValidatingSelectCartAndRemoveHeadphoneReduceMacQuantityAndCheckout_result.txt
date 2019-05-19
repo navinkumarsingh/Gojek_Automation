@@ -1,0 +1,18 @@
+May 20, 2019 12:53:00 AM com.qa.testsuites.TestSuite ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout
+INFO: Test Purpose: Select cart and remove headphone, reduce Mac quantity and checkout
+May 20, 2019 12:53:00 AM com.qa.test.methods.CommonMethods selectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout
+INFO: Validating Cart And Remove Headphone
+May 20, 2019 12:53:00 AM com.qa.test.methods.CommonMethods selectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout
+INFO: Successfully validated cart count webelement
+May 20, 2019 12:53:03 AM com.qa.test.methods.CommonMethods selectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout
+INFO: Successfully clicked on cart
+May 20, 2019 12:53:03 AM com.qa.test.methods.CommonMethods selectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout
+INFO: Successfully validated head phone delete webelement
+May 20, 2019 12:53:03 AM com.qa.test.methods.CommonMethods selectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout
+INFO: Successfully deleted headphone from the list
+May 20, 2019 12:53:03 AM com.qa.test.methods.CommonMethods selectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout
+INFO: Successfully Selected first dropdown from the dropdown list
+May 20, 2019 12:53:03 AM com.qa.test.methods.CommonMethods selectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout
+INFO: Successfully validated checkout webelement
+May 20, 2019 12:53:06 AM com.qa.test.methods.CommonMethods selectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout
+INFO: Successfully clicked on the checkout

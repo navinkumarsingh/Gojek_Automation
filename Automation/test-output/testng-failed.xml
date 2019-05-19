@@ -4,17 +4,20 @@
   <listeners>
     <listener class-name="com.qa.customReport.CustomReport"/>
   </listeners>
-  <test name="LoginToTheApplication(failed)">
+  <test name="TestSuite(failed)">
     <classes>
-      <class name="com.qa.testsuites.LoginToTheApplication">
+      <class name="com.qa.testsuites.TestSuite">
         <methods>
-          <include name="launchApplication"/>
           <include name="loadDataProperties"/>
-          <include name="ValidatingHeadphoneAndAddToCart"/>
+          <include name="ValidatingFirstAvailableHeadphoneAddToCart"/>
+          <include name="ValidatingSelectCartAndRemoveHeadphoneReduceMacQuantityAndCheckout"/>
+          <include name="launchApplication"/>
+          <include name="ValidatingMacBookProAddedToCart"/>
           <include name="initFramewotk"/>
           <include name="setupLogger"/>
+          <include name="validatingLogin"/>
         </methods>
-      </class> <!-- com.qa.testsuites.LoginToTheApplication -->
+      </class> <!-- com.qa.testsuites.TestSuite -->
     </classes>
-  </test> <!-- LoginToTheApplication(failed) -->
+  </test> <!-- TestSuite(failed) -->
 </suite> <!-- Failed suite [Automation] -->
